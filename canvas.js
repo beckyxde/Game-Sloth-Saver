@@ -8,17 +8,17 @@ window.onload = function() {
   var speed = 2;
 
   //falling objects
-  var positionXpanier = 220;
+  var positionSloth = 220;
   var img = new Image();
   var obstacles = [];
-  var images = ["images/banana.png", "images/orange.png", "images/fruit1.png"];
+  var images = ["images/branch.png"];
   var frame = 0;
 
 // Function Start Game
 function startGame() {
-  img.src = "./images/panier.png";
+  img.src = "./images/Sloth2.png";
   img.onload = function() {
-    ctx.drawImage(img, positionXpanier, 410, 100, 100);
+    ctx.drawImage(img, positionSloth, 410, 100, 100);
   };
   for (let i = 0; i < lives; i++) {
     hearts.push(heart);
@@ -32,22 +32,58 @@ document.getElementById("button").onclick = function() {
     startGame();
     gameStarted = true;
   }
-};
+}
+
+function branchFall() {
+//amount of branches that fall
+}
+
+function branchSpeed () {
+//speed increase function
+}
+
+function 
+//intersect function where branches dissapear when intersects with sloth
+
+function leafFall () {
+
+}
+
+function leafSpeed () {
+  //when sloth hits leaf, the branches slow down
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // Right and left
   document.onkeydown = function(event) {
     var key = event.keyCode;
     if (key === 37) {
-      if (positionXpanier <= 0) {
-        positionXpanier = -20;
+      if (positionSloth <= 0) {
+        positionSloth = -20;
       } else {
-        positionXpanier -= 15;
+        positionSloth -= 15;
       }
     } else if (key === 39) {
-      if (positionXpanier >= 450) {
-        positionXpanier = 470;
+      if (positionSloth >= 450) {
+        positionSloth = 470;
       } else {
-        positionXpanier += 15;
+        positionSloth += 15;
       }
     }
   };

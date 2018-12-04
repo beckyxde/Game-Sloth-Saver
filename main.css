@@ -33,16 +33,9 @@ p {
   font-family: 'Arial', sans-serif;
 }
 
-h3 {
-  color: black;
-  text-align: center;
-  font-size: 10px;
-  font-family: 'Dosis', sans-serif;
-}
-
 
 #startBtn{
-  background-color: linear-gradient(to left bottom, #dbd4c8, #d5cbbb #c3b193 #b89f7c);
+  background-color: linear-gradient(to left bottom, #A8E798, #B1E7A3 #BCE7B2 #CBE5C1);
   border: 0px;
   position: relative;
   top: 300px;
