@@ -1,1 +1,51 @@
-...
+#game-board {
+  border: 3px solid #eeeddd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-image: url("./images/forrest.png");
+  
+}
+
+#button {
+  text-align: center;
+  text-shadow: 4px 4px 4px rgb(247, 240, 240);  
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+  font: bold;
+  color: black;
+  margin: 20px 0 0 610px;
+  background-image: radial-gradient(circle, #A8E798 , #B1E7A3, #BCE7B2, #C8E5C1);
+  border: 2px solid #dfdec3;
+  border-radius: 6px;
+  width: 108px;
+  height: 50px;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Arial', sans-serif;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+#startBtn{
+  background-color: linear-gradient(to left bottom, #dbd4c8, #d5cbbb #c3b193 #b89f7c);
+  border: 0px;
+  position: relative;
+  top: 300px;
+  left: 225px;
+  border-radius: 12px;
+}
