@@ -6,68 +6,55 @@ window.onload = function() {
   var levels = 3;
   var count = 20;
   var speed = 2;
+  var images = [];
 
-  //falling objects
+  
   var positionSloth = 220;
   var img = new Image();
   var obstacles = [];
   var images = ["images/branch.png"];
   var frame = 0;
 
-// Function Start Game
-function startGame() {
-  img.src = "./images/Sloth2.png";
-  img.onload = function() {
+  function updateCanvas() {
+    ctx.clearRect(0,0,canvas.width, canvas.height)
     ctx.drawImage(img, positionSloth, 410, 100, 100);
+    window.requestAnimationFrame(updateCanvas)
+  }
+
+  // Function Start Game
+  function startGame() {
+    img.src = "./images/Sloth2.png";
+    img.onload = function() {
+      ctx.drawImage(img, positionSloth, 410, 100, 100);
+    };
+    
+    updateCanvas();
+  }
+
+  // Start Button
+  document.getElementById("button").onclick = function() {
+    if (!gameStarted) {
+      startGame();
+      gameStarted = true;
+    }
   };
-  for (let i = 0; i < lives; i++) {
-    hearts.push(heart);
+
+  function branchFall() {
+    //amount of branches that fall
   }
-  updateCanvas();
-}
 
-// Start Button
-document.getElementById("button").onclick = function() {
-  if (!gameStarted) {
-    startGame();
-    gameStarted = true;
+  function branchSpeed() {
+    //speed increase function
   }
-}
 
-function branchFall() {
-//amount of branches that fall
-}
+  //function
+  //intersect function where branches dissapear when intersects with sloth
 
-function branchSpeed () {
-//speed increase function
-}
+  function leafFall() {}
 
-function 
-//intersect function where branches dissapear when intersects with sloth
-
-function leafFall () {
-
-}
-
-function leafSpeed () {
-  //when sloth hits leaf, the branches slow down
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  function leafSpeed() {
+    //when sloth hits leaf, the branches slow down
+  }
 
 
   // Right and left
@@ -87,4 +74,4 @@ function leafSpeed () {
       }
     }
   };
-  
+};
