@@ -1,19 +1,52 @@
-# Ironhack-Game: Sloth Saver
+# Sloth Saver
 
-Concept:
-Despite the negative cliches, sloths are quite incredible and peculiar creatures. Both two, and three-toed sloths, can hold their breath underwater for about 40 minutes, have a vertebrae allowing them to turn their neck at almost 270° axis, and they consume a plant-based diet keeping them healthy for throughout their lifespan of near 30 years.
+##Overview: 
+The original motive behind this simple game was to complete the first project requirements while enrolled in Ironhack Berlin.
+The first project required students to create a game that has basic player functionality, as well as a scoreboard function. 
+As Ironhack is a Javascript (MERN) focused academy, I've decided to convert the project to Python and try to implement the same ideas 
+that I had two years ago when planning this game.
 
-But at the end, a sloth is enevitably defeated by its flaws; for a group of creatures who spend 90% of their life hanging upside down, you think they'd be pretty good at being able to hold on tightly, right? Well, apparently not. Quite often, sloths will mistake their own arm for a branch and fall to their death. A terribly tragic fate, indeed.
 
-Instructions:
-The objective of this game is for the player, being a sloth, to catch as many branches as possible. The speed of the falling branches will get faster, and the sloth will become more anxious. To slow the speed down, and to calm the sloth's nerves, the sloth has the opportunity to catch a falling leaf. There are few leaves, so the sloth must be attentive.
+##Background:
+Despite cliches about laziness and slow-movement, Sloths are quite marvelous creatures. There are two main types of Sloths, three-toed and two-toed, 
+and six main types of species:
+Pygmy three-toed Sloth (Bradypus pygmaeus)
+Maned Sloth (Bradypus torquatus)
+Pale-throated Sloth (Bradypus tridactylus)
+Brown-throated Sloth (Bradypus variegatus)
+Linnaeus's two-toed Sloth (Choloepus didactylus)
+######(I encourage further reading on Sloths from the 'sources' section at the bottom of the page)
 
-There are three levels in the game. The game is won when level three is complete and the sloth has caught all of the branches.
+Sloths, can hold their breath underwater for about 40 minutes, 
+they have a vertebrae allowing them to turn their neck at almost a 270° axis, 
+and they consume a plant-based diet keeping them healthy for throughout their lifespan of near 30 years.
 
-Additional Notes:
-Built With:
-Acknowledgements:
-George White - "Animals In The Wild"
-https://www.worldanimalprotection.org.uk/blogs/10-facts-about-sloths
+But in the end, all creatures have a weakness that will inevitably be the cause of their demise, 
+in this case, a Sloth's greatest threat is what it longs for most. Leaves, trees, and *the support of branches.* 
+Quite often, when moving among branches, Sloths will mistake their own arm for a branch and fall to their death. 
+A tragic fate, indeed.
 
-https://images.google.de/imgres?imgurl=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FVEFbVVKhY28GA%2Fgiphy.gif&imgrefurl=https%3A%2F%2Fgiphy.com%2Fgifs%2Fflash-VEFbVVKhY28GA&docid=-QEWDxItEUTtZM&tbnid=yHAL7Ai56oAgpM%3A&vet=1&w=500&h=500&source=sh%2Fx%2Fim
+##Instructions:
+The objective of this game is for the player, being a Sloth, to catch as many branches as possible. 
+The falling branches will become faster each time a branch is caught and a point is scored.
+There will also be occurrences of falling leaves, i.e. when a leaf is caught, the speed of the falling branches slows down.  
+There are few leaves, so the Sloth must be attentive if he wishes to catch one.
+If the Sloth does not catch a branch, then the game is over. 
+
+
+There are three levels in the game, each level increasing in the rate of falling branches.
+The controls are the left and right keys. 
+The player wins the game when level three is complete and the Sloth has caught all of the branches.
+
+
+
+####Built With:
+Python 3.9
+
+
+####Sources:
+[WWF on Sloths]: https://www.worldwildlife.org/species/sloth
+[George White - "Animals In The Wild"]: https://www.worldanimalprotection.org.uk/blogs/10-facts-about-sloths
+
+
+![](https://media.giphy.com/media/p2J2OMrBI6ErC/giphy.gif)
