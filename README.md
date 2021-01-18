@@ -45,6 +45,7 @@ Python 3.9
 
 
 #### Sources:
+
 [WWF on Sloths]: https://www.worldwildlife.org/species/sloth
 [George White - "Animals In The Wild"]: https://www.worldanimalprotection.org.uk/blogs/10-facts-about-sloths
 
